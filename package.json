@@ -14,12 +14,13 @@
     "@emotion/styled": "^11.9.3",
     "@material-ui/core": "^4.12.4",
     "@mui/material": "^5.8.5",
-    "@mui/x-data-grid": "^5.12.2",
+    "@mui/x-data-grid": "^5.12.3",
     "formik": "^2.2.9",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-csv": "^2.2.2",
     "react-dom": "18.2.0",
+    "react-papaparse": "^4.0.2",
     "yup": "^0.32.11"
   },
   "devDependencies": {
