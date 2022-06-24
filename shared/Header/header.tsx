@@ -16,7 +16,7 @@ const useStyles = makeStyles( (theme:Theme)=>
            display: 'flex',
            alignItems:'center',
            justifyContent:'space-between',
-          padding: '0px 5px'
+         // padding: '0px 5px'
        },
        headings: {
            fontWeight: 'bold',
@@ -27,6 +27,9 @@ const useStyles = makeStyles( (theme:Theme)=>
 )
 
 function Header(props:any) {
+
+
+
     const classes = useStyles();
     const name = props.name;
   
@@ -34,7 +37,7 @@ function Header(props:any) {
   return (
 
     <div className={classes.main}>
-    <Paper >
+    <Paper>
         <div className={classes.paperContent}>
         <h2>{name}</h2>
         
